@@ -137,11 +137,11 @@ export class EmployeeRecord extends React.Component<Props, State> {
                     <table className="table table-bordered">
                         <thead className="bg-danger text-white">
                             <tr>
-                                <th>Id</th>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Phone No</th>
-                                <th>Address</th>
+                                <th>Employee's Id</th>
+                                <th>Employee's Name</th>
+                                <th>Employee's Email</th>
+                                <th>Employee's Phone No</th>
+                                <th>Employee's Address</th>
                             </tr>
                         </thead>
                         <tbody>
