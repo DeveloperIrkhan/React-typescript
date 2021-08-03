@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.requiredbox input[type="text"]{
+	border-style: none !important;
+	border-color: transparent !important;
+	background-color: #f2f2f2 !important;
+	background: #f2f2f2 !important;
+	overflow: hidden !important;
+}
+
+.requiredbox.active div {
+	border: 1px solid red !important;
+}
+
+.requiredbox.active .required {
+	visibility: visible;
+}
+
+.required {
+	visibility: hidden;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 17px;
+	color: #ee0003;
+	margin-top: 10px;
+	margin-bottom: 17px;
+}
