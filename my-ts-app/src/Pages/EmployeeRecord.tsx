@@ -45,7 +45,7 @@ export class EmployeeRecord extends React.Component<Props, State> {
         let Email = Emp.Email;
         let Phone = Emp.Phone;
         let Address = Emp.Address;
-        if (Name != "" || Email != "" || Phone != "" || Address != "") {
+        if (Name !== "" || Email !== "" || Phone !== "" || Address !== "") {
             this.setState({ valid: false })
             this.PushData();
         }

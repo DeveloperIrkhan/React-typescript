@@ -14,9 +14,7 @@ export class SearchUser extends React.Component<Props, State> {
         };
     }
     render() {
-        var studentFullName = "irfan shah Aakhunzada";
-        var details = []
-        details = studentFullName.split(' ');
+        
         const { Name } = this.state;
         return (
             <div className="">
@@ -65,13 +63,6 @@ export class SearchUser extends React.Component<Props, State> {
                             }
                         </tbody>
                     </table>
-                </div>
-                <div className="py-5">
-                <h2>Your Full name is <span className="text-danger">{studentFullName}</span></h2>
-                <h4>your First Name is <span className="text-success"> {details[0]}</span></h4>
-                <h4>your Middle Name is <span className="text-success"> {details[1]}</span></h4>
-                <h4>your Last Name is <span className="text-success">{details[2]}</span></h4>
-
                 </div>
             </div>
         )
